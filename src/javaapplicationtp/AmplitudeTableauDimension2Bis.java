@@ -47,7 +47,7 @@ public class AmplitudeTableauDimension2Bis {
             }
         }         
         // calcule de l'amplitude
-        amplitude = plusGrand - plusPetit;
+        amplitude = plusGrand + plusPetit;
         // affiche l'amplitude
         System.out.printf("Amplitude du Tableau = %d", amplitude);   
     }
