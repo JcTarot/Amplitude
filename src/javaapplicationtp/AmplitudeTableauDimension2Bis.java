@@ -37,11 +37,11 @@ public class AmplitudeTableauDimension2Bis {
         for (int i = 0; i < NL; i++) {
             for (int j = 0; j < NC; j++) {
                 // test plus grand
-                if ( plusGrand < tab[i][j] ) {
+                if ( tab[i][j] > plusGrand  ) {
                     plusGrand = tab[i][j];
                 }
                 // test plus petit
-                if ( plusPetit > tab[i][j] ) {
+                if ( tab[i][j] < plusPetit ) {
                     plusPetit = tab[i][j];
                 }
             }
